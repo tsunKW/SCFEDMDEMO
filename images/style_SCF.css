@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #dacbbb;
+    background: #ea6157;
     background-image: url(SCFBG.jpg);
     width: 100%;
     background-size: cover;
@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
 
     body {
         background-image: url(SCFBGm.jpg);
@@ -19,6 +19,10 @@ body {
         background-attachment: fixed;
 
     }
+}
+
+@media screen and (min-width:768px) {
+
 
     /* PCscrollbar樣式 */
     ::-webkit-scrollbar-thumb {
@@ -32,6 +36,9 @@ body {
         background: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     }
 }
+
+
+
 
 .SCFsafeText {
     /* 安全字樣式 */
