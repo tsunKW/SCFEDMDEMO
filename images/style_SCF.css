@@ -331,6 +331,6 @@ html {
 
 @media screen and (max-width: 768px) {
     .swiper-pagination {
-        bottom: 3%;
+        bottom: 2%;
     }
 }
