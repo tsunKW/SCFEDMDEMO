@@ -86,7 +86,7 @@ html {
     /* color: black; */
     color: #fff;
     text-align: center;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 .lip {
