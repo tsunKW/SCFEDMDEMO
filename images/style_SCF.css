@@ -146,7 +146,9 @@ html {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-
+.SCFnavbar  .dropdown>a{
+    color: #fff !important;
+}
 .SCFnavbar .dropdown-menu {
     min-width: 13rem;
     padding: 0;
